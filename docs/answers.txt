@@ -1,0 +1,42 @@
+Git Lab Tutorials completed on: 10 / 24 / 2025
+GitHub account created on: 01 / 20 /2025
+Repository access: Public
+
+1)Enumerating objects: 5, done.
+Counting objects: 100% (5/5), done.
+Delta compression using up to 12 threads
+Compressing objects: 100% (3/3), done.
+Writing objects: 100% (4/4), 534 bytes | 267.00 KiB/s, done.
+Total 4 (delta 1), reused 0 (delta 0), pack-reused 0 (from 0)
+remote: Resolving deltas: 100% (1/1), completed with 1 local object.
+To https://github.com/malumita/assignment2.git
+   3eff88d..7a2426a  master -> master
+
+2) git rev-list --count --all
+answer ----- 9
+
+3) git log -1 --date=iso --format="%ad  %h  %an: %s" -- README.md
+answer ----- 2025-10-24 17:03:49
+
+4) Isolate features and Enable safe review
+
+5) git log --follow --name-only --oneline -- Vehicle.h
+
+03106e9 — Declared the trivial destructors for all classes … 
+f9cd890 — Partial implementation of PoweredVehicle and Car; definition of virtual functions 
+
+6) git status shows : Your branch is up to date with 'origin/master'.
+git log shows : the history of commits from most recent to oldest.
+
+7) git log --all --oneline --grep="file" -i
+
+f4975e5 -> Adding an empty README.md file
+
+8) Inheritance: A class extends another class’s fields and methods.
+ Encapsulation: Hide internal state, expose behavior via a controlled public API.
+Polymorphism: One interface, many implementations. Calls resolve to the derived type.
+
+9)Integration Manager has one person who pulls from developer’s public repos.
+Dictator & Lieutenants is hierarchical: only the dictator pushes to the blessed repo
+
+
